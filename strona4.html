@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="plik.css">
+    <style>
+         .tak {
+            border-style: solid;
+            border-radius: 50px;
+            border-color: white;
+            color:white;
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        .nie {
+            text-align: center;
+        }
+
+    </style>
+    <script src="script2.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Porównywanie produktów</h1>
+    </nav>
+    <div class="nie">
+    <a href="index.html"><b>Strona Startowa</b></a>
+        <a href="Strona2.html"><b>Kalkulator kalorii</b></a>
+        <a href="Strona3.html"><b>Kalkulator BMI</b></a>
+        <a href="strona4.html"><b>Porównywanie produktów</b></a>
+    </div>
+        <div class="tak">
+        <label>Porównywanie Produktu</label><br>
+            <label style="font-size: 18px;"><b>Wpisz kalorie</b></label><br>
+              <input  id="kalorie" name="kalorie"><br>
+      
+        <select name="zdrowe" id="zdrowe">
+            <option selected="true " value="53" >maliny 53 kcal / 100g</option>
+            <option  value="32">truskawki 32 kcal / 100g</option>
+            <option value="43">jeżyny 43 kcal / 100g</option>
+            <option value="57">borówki 57 kcal / 100g</option>
+            <option value="50">wiśnie	50 kcal / 100g</option>
+            <option value="47">pomarańcze 	47 kcal / 100g</option>
+            <option value="42">grejpfruty	42 kcal / 100g</option>
+            <option value="30">mandarynki 	30 kcal / 100g</option>
+            <option value="52">jabłka  52 kcal / 100g</option>
+            <option value="57">gruszki 57 kcal / 100g</option>
+        </select>
+        
+
+        <select name="niezdrowe" id="niezdrowe">
+            <option selected="true "value="53" >chipsy 	536 kcal / 100g</option>
+            <option  value="266">pizza 	266 kcal / 100g</option>
+            <option value="195">kebab	195 kcal / 100g</option>
+            <option value="311">frytki 	311 kcal / 100g</option>
+            <option value="206">burrito	206 kcal / 100g</option>
+            <option value="294">burger 	294 kcal / 100g</option>
+            <option value="289">hot dog	289 kcal / 100g</option>
+            <option value="218">zapiekanka 218 kcal / 100g</option>
+            <option value="237">tortilla 237 kcal / 100g</option>
+            <option value="212">naleśnik z serem 212 kcal / 100g</option>   
+            <br>
+            
+          </select>
+        
+         <button id="result">Oblicz</button>
+<p>Aby uzupełnić swoje zapotrzebowanie kaloryczne musisz zjeść<label id="wynik" style="color: darkred;"></label> porcji zdrowego produktu.</p>
+<p>Aby uzupełnić swoje zapotrzebowanie kaloryczne musisz zjeść<span id="result2" style="color: darkred;"></span> porcji niezdrowego produktu.</p>
+       
+ 
+</body>
+</html>

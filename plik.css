@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+html,body {
+    margin:0px;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(53, 48, 163) 0%, rgb(57, 57, 207) 44%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    height:100vh;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 150px 0 0 0 #b657ce;
+    color:white;
+  }
+
+
+
+a {
+    border-style: solid;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-size: 70px;
+}
+
+a {
+    border-style: solid; color:white;  margin: 10px;   font-family:Roboto Slab;
+}
+
+div { 
+    text-align: center;
+}
+
+nav {
+    font-family: Open Sans; 
+    
+}
+
+h2 {
+    font-family:Roboto Slab
+}
+
+
+main {
+    text-align: center; 
+    margin-top: 50px;
+    background-color: #b657ce;
+}

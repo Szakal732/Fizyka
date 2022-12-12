@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="plik.css">
+    <script src="script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+.tak2 {
+    text-align:center;
+    
+}
+
+h2 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 1px;
+    color: white;
+    
+
+}
+ 
+h4 {
+    color:white;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: Roboto Slab;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <h1> Kalkulator BMI</h1>
+    </nav>
+        <div>
+        <a href="index.html"><b>Strona Startowa</b></a>
+        <a href="Strona2.html"><b>Kalkulator kalorii</b></a>
+        <a href="Strona3.html"><b>Kalkulator BMI</b></a>
+        <a href="strona4.html"><b>Porównywanie produktów</b></a>
+        <h4> Policz Swoje BMI</h4>
+        </div>
+                <div class="tak2">
+        <h2>
+        <form name="bmiForm">
+    
+			Waga (kg): <input type="text" name="weight" size="10" ><br />
+			Wzrost (cm): <input type="text" name="height" size="10"><br />
+			<input type="button" value="Policz BMI" onClick="calculateBmi()"><br />
+			BMI: <input type="text" name="bmi" size="10"><br />
+			Twój wskaźnik jest: <input type="text" name="meaning" size="25"><br />
+			<input type="reset" value="Zresetuj pola" />
+		</form>
+         </h2>
+                </div>
+
+
+</body>
+</html>
